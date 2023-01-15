@@ -1,0 +1,22 @@
+Java 19
+
+GroupId
+java_weather.org.example
+
+ArtifactId
+telegram_java_weather
+
+Package name
+java_weather.org.example.telegram_java_weather
+
+telegram_java_weather
+
+
+добавляем необходимые зависимости
+Драйвер для MongoDB
+Аннотации для оптимизации Java кода
+Библиотека для удобной работы с Telegram API
+Библиотека для парсинга эмоджи
+
+
+реализовать функцию для работы с базой данных и api openweather
