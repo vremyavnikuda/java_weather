@@ -22,7 +22,7 @@ public class BotConfig {
     //имя бота
     private String name;
 
-    //токер telegram
+    //токен telegram
     private String accessToken;
 
     //шаблон API ссылки (получать данный о текущей погоде)
@@ -35,4 +35,13 @@ public class BotConfig {
 
     //место, где будут храниться наши команды бота
     private List<Command>commands;
+    private String nowWeatherApiTemp;
+
+    public String getNowWeatherApiTemp() {
+        return nowWeatherApiTemp;
+    }
+
+    public void setNowWeatherApiTemp(String nowWeatherApiTemp) {
+        this.nowWeatherApiTemp = nowWeatherApiTemp;
+    }
 }
