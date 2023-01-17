@@ -1,5 +1,6 @@
 package java_weather.org.example.telegram_java_weather;
 
+import java_weather.org.example.telegram_java_weather.enu.BotState;
 import lombok.*;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;

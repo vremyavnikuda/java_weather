@@ -1,4 +1,5 @@
 package java_weather.org.example.telegram_java_weather;
+import java_weather.org.example.telegram_java_weather.inter.BotConfigRepo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import java.util.List;
